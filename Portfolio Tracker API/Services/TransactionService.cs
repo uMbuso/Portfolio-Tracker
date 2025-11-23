@@ -4,8 +4,6 @@ using Portfolio_Tracker_API.Repositories;
 
 namespace Portfolio_Tracker_API.Services
 {
-    public class TransactionService
-    {
         public class TransactionService : ITransactionService
         {
             private readonly ITransactionRepository _transactionRepository;
@@ -57,5 +55,4 @@ namespace Portfolio_Tracker_API.Services
                 };
             }
         }
-    }
 }
